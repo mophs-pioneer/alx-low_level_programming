@@ -2,6 +2,7 @@
 
 /**
 * main - main entry
+*
 * Return: Always 0
 */
 
@@ -25,6 +26,7 @@ int main(void)
 							}
 			}
 		}
-		putchar('\n');
-		return (0);
+	}
+putchar('\n');
+return (0);
 }
