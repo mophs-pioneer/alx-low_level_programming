@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+* main - main function
+* Return: Always 
+*/
 
 int main(void)
 {
