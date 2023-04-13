@@ -14,7 +14,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 {
 	unsigned int i;
 
-	i=0;
+	i = 0;
 	while (i < size)
 	{
 	if (i % 10)
@@ -48,7 +48,7 @@ int main(void)
 	{
 	p[i++] = 98;
 	}
-    	simple_print_buffer(p, 98);
-    	free(p);
+	simple_print_buffer(p, 98);
+	free(p);
 	return (0);
 }
